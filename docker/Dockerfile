@@ -20,6 +20,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
   rsyslog \
   unzip
 
+
 RUN set -ex && \
   mkdir -p /opt/zimbra-install && \
   echo "Downloading Zimbra Collaboration 8.8.7" && \
